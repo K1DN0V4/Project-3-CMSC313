@@ -14,6 +14,6 @@
 ./hexfile binary.out
 
 ## Compile Analysis
-O0 - The compiler does not improve the code at all. Every local variable lives on the stack and is stored on every access.
-O1 - Improvements are made to memory optimization so inner loops do not read/write on every iteration.
-O3 - Builds on O1 and heavily optimizes the code, but makes debgging more difficult, increases compile time, but decreases execution time.
+- O0 - The compiler does not improve the code at all. Every local variable lives on the stack and is stored on every access.
+- O1 - Improvements are made to memory optimization so inner loops do not read/write on every iteration.
+- O3 - Builds on O1 and heavily optimizes the code, but makes debgging more difficult, increases compile time, but decreases execution time.
